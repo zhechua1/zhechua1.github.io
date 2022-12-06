@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="javajam.css">
+        <title>
+            JavaJam Coffee House
+        </title> 
+    </head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>JavaJam Coffee House</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="herojobs"></div>
+            <h2>Jobs at JavaJam</h2>
+            <p>Want to work at JavaJam? Fill out the form to start yor application.<br>
+            Required fields are marked with an asterisk (*).</p>
+            <form method="post" action="http://webdevbasics.net/scripts/javajam8.php">
+                <label for="Name">*Name:</label>
+                    <input type="text" name="myName" required>
+                <label for="E-mail">*Email:</label>
+                    <input type="email" name="myEmail" required>
+                <label for="Experience">*Experience:</label>
+                    <textarea rows="2" cols="20" required></textarea>
+                <label for="submit"></label>
+                    <input type="submit" value="Apply Now" id="mySubmit">
+            </form> 
+        </main>
+        <footer>
+            Copyright © 2018 JavaJam Coffee House
+            <br>
+            <a href="mailto:chuashenzhe@gmail.com">chuashenzhe@gmail.com</a>
+
+        </footer>
+    </div>
+</body>
+</html>
